@@ -6,9 +6,11 @@ import Hero from './Components/Hero';
 function App() {
   return (
         <div>
+                <div className='JSX'  >Code With Sheikh</div>
           <Header/>
-       
-            Code With Sheikh
+            <Hero/>
+
+      
         </div>
   );
 }
