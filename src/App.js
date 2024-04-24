@@ -7,7 +7,7 @@ function App() {
   return (
         <div>
           <Header/>
-          <Hero/>
+       
             Code With Sheikh
         </div>
   );
