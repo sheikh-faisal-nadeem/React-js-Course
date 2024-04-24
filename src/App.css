@@ -10,3 +10,7 @@
     color: white;
       margin-left: 6rem;
 }
+.JSX{
+      display: flex;
+      justify-content: center;
+}
