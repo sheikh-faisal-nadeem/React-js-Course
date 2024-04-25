@@ -1,17 +1,26 @@
+import React , {useState} from "react";
 
-import './App.css';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
+import "./App.css";
 
 function App() {
-  return (
-        <div>
-                <div className='JSX'  >Code With Sheikh</div>
-          <Header/>
-            <Hero/>
+ 
+    const[data,SetData]=useState(5)
 
-      
-        </div>
+    function Update(){
+
+          SetData(data*5)
+
+    }
+    console.log(data)
+
+
+ 
+  return (
+    <div className="State">
+      <h2>What is State!!!</h2>
+      <h2>Add on Click {data} </h2>
+      <button  onClick={Update} >Add Me</button>
+    </div>
   );
 }
 
