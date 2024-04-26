@@ -1,17 +1,5 @@
-.header{
 
-      display: flex;
-      background-color: black;
-      justify-content: center;
-      height: 3rem;
-      align-items: center;
-}
-.link{
-
-    color: white;
-      margin-left: 6rem;
-}
-.State{
+.Props{
       display: flex;
       flex-direction: column;
       justify-content: center;

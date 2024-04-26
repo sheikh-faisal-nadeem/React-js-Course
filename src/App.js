@@ -1,27 +1,20 @@
-import React , {useState} from "react";
+import React from 'react'
+import "./App.css"
+import Child from './Components/Child'
 
-import "./App.css";
-
-function App() {
- 
-    const[data,SetData]=useState(5)
-
-    function Update(){
-
-          SetData(data*5)
-
-    }
-    console.log(data)
-
-
- 
+const App = () => {
   return (
-    <div className="State">
-      <h2>What is State!!!</h2>
-      <h2>Add on Click {data} </h2>
-      <button  onClick={Update} >Add Me</button>
+    <div className="Props">
+      <h2>What is Props in React js!!!</h2>
+
+      <Child   Name="Faisal"    YTName="Code With Sheikh"   Adress="Pakistan"
+      
+          other={ { Phone:8584856486749 , Age:22   } }
+      
+      />
+     
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
