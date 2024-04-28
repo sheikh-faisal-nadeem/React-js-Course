@@ -1,17 +1,14 @@
 import React from 'react'
 import "./App.css"
-import Child from './Components/Child'
+
 
 const App = () => {
   return (
-    <div className="Props">
-      <h2>What is Props in React js!!!</h2>
-
-      <Child   Name="Faisal"    YTName="Code With Sheikh"   Adress="Pakistan"
+    <div >
       
-          other={ { Phone:8584856486749 , Age:22   } }
+      <h3>How to Integrate Tailwind CSS in React js</h3>
       
-      />
+   
      
     </div>
   )
